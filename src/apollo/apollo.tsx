@@ -6,7 +6,6 @@ const apolloClientOptions = {
   // ex) exp://127.0.0.1:19000 => http://127.0.0.1:4000
   // uri: "http://192.168.0.8:4000"
   // uri: "http://192.168.0.3:4000"
-  uri: "http://35.200.102.74:4000" // 아임포트 테스트 서버
 };
 
 export default apolloClientOptions;

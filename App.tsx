@@ -18,17 +18,7 @@ export default () => {
   const [isLoggedIn, setIsLoggedIn] = useState(null);
   const preLoad = async () => {
     // await AsyncStorage.clear();
-    // for development purpose - only to clear storage
     try {
-      // 폰트 로딩
-      // await loadAsync({
-      //   ...Ionicons.font
-      // }); ==> package.json에 rnpm 등록 후, react-native link 적용한 결과와 동일
-
-      // 로고 로딩
-      // await Asset.loadAsync([require("./assets/logo.png")]);
-
-      // 메모리 캐싱
       const cache = new InMemoryCache();
       await persistCache({
         cache,
